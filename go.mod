@@ -1,4 +1,4 @@
-module hg-api
+module github.com/mogagnon/hg-api
 
 go 1.16
 
