@@ -22,3 +22,6 @@ You need a hosted graphite token in order to run the acceptance test.
 ```
 HG_TOKE="your token" go test ./..
 ```
+
+## Export dashboard
+It's possible to export a dashboard directly from Hosted graphite. The procedure is the same as for [Grafana](https://grafana.com/docs/grafana/latest/dashboards/export-import/).
