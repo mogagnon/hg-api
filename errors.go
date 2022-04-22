@@ -1,4 +1,4 @@
-package hostedgraphite
+package hgApi
 
 import "fmt"
 
@@ -7,7 +7,7 @@ type APIError struct {
 }
 
 func (e APIError) Error() string {
-	return fmt.Sprintf("hosted graphite api error:%v", e.Message)
+	return fmt.Sprintf("hosted graphite API : %v", e.Message)
 }
 
 func handleError(httpError error, apiError APIError) error {

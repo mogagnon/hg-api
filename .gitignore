@@ -6,11 +6,7 @@
 *.test
 *.out
 .DS_Store
-terraform.tfplan
-terraform.tfstate
 *.backup
-./*.tfstate
-.terraform/
 *.log
 *.bak
 *~
